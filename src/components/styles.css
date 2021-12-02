@@ -1,0 +1,158 @@
+.list{
+    
+    list-style-type: none;
+
+}
+
+.new-toDo{
+    padding: 12px 16px 12px 30px;
+    border-style:solid;
+    position: relative;
+	width: 35%;
+	font-size: 20px;
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	line-height: 1em;
+	box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.contain {
+    text-align: center;
+}
+
+
+#button {
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eccdcb;
+    border: 2px solid #111;
+    color: #111;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 25px;
+    height: 50px;
+    line-height: 25px;
+    position: relative;
+}
+
+.li-container{
+    margin: 1% 1.7% auto 28.1%;
+    width: 41.5%;
+    padding: 7px 5px 12px 5px;
+    border-radius: 10px;
+    background-color:#f5f1f0 ;
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.textSub {
+    margin-left: 25px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: rgb(240, 230, 230);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background-color: #1bcfb7;
+    border-color: #15cfb7;
+}
+
+
+
+
+.deleteBtn{
+    width: 40px;
+    height: 120%;
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+
+
+.buttonHolder{
+    margin-bottom: 0px;
+    margin-top: -2px;
+    margin-right: 0px;
+}
+
+.filterMenu{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.filterButton{
+    font-size: 15px;
+    margin-top: 8px;
+    margin-right: 3px;
+    width: 200px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+
+.filterButton:focus{
+    background-color: #7fdacd;
+    color: #1a0d0c;
+}
+
+
+body {
+    margin: 0 0 70px;
+    background-color: #fcc1370c ;
+}
+
+.title{
+    font-weight: lighter;
+    font-size: 80px;
+    color: #d6584f;
+    font-family:Arial, Helvetica, sans-serif
+}
